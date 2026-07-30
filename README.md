@@ -2,46 +2,49 @@
 
   <!-- THEME AUTO-SWITCHING BANNER -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=2">
-    <img alt="Sarath Babu P Banner" src="./banner.svg?v=2" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
+    <img alt="Sarath Babu P Banner" src="./banner.svg?v=3" width="100%">
   </picture>
 
   <br><br>
 
-  <!-- SWINGING SARC R&D BADGE -->
-  <img src="./lanyard.svg?v=2" alt="Sarath Babu P SARC R&D Access Badge" width="410px">
+  <!-- SWINGING DATA SCIENTIST LANYARD BADGE -->
+  <img src="./lanyard.svg?v=3" alt="Sarath Babu P Data Scientist Lanyard Badge" width="410px">
 
   <br><br>
 
-  <!-- CONNECT & VIEW BADGES -->
+  <!-- CONNECT & SOCIAL BADGES -->
   <a href="https://github.com/sarathbabu123">
     <img src="https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="https://linkedin.com">
+  <a href="https://www.linkedin.com/in/sarath-babu-p/">
     <img src="https://img.shields.io/badge/LinkedIn-Sarath_Babu_P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="mailto:sarathbabu@example.com">
+  <a href="mailto:sarathbabuparakkadavu@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://komarev.com/ghpvc/?username=sarathbabu123&color=e8511a&style=for-the-badge">
-    <img src="https://komarev.com/ghpvc/?username=sarathbabu123&color=e8511a&style=for-the-badge" alt="Profile Views">
+  <a href="https://komarev.com/ghpvc/?username=sarathbabu123&color=f59e0b&style=for-the-badge">
+    <img src="https://komarev.com/ghpvc/?username=sarathbabu123&color=f59e0b&style=for-the-badge" alt="Profile Views">
   </a>
 
   <br><br>
 
-  <!-- ABOUT ME SUMMARY CARD -->
+  <!-- ABOUT ME / BEHIND THE DATA -->
   <table>
     <tr>
       <td align="left" width="100%">
-        <h3>⚡ About Me</h3>
-        <p>👋 Hi! I'm <b>Sarath Babu P</b>, an Applied Machine Learning Engineer based in 📍 <b>Bengaluru, India</b>. Currently working as a <b>Research &amp; Development Engineer at Mooving (SAR Group)</b> in the <b>SARC division</b>.</p>
-        <p>My work spans battery analytics ML pipelines across large EV fleets, computer vision inference tools, firmware anomaly detection, and embedded AI systems.</p>
+        <h3>🌿 Behind the Data</h3>
+        <p>👋 Hi! I'm <b>Sarath Babu P</b>, a <b>Data Scientist &amp; Applied Machine Learning Engineer</b> based in 📍 <b>Bengaluru, India</b>. Currently working as an <b>R&amp;D Engineer</b> at <b>Mooving (SAR Group)</b>.</p>
+        <p><i>"I build things that hopefully work. Mostly ML systems, sometimes robots, occasionally chaos. By day I'm writing Python that turns messy real-world data into something a team can actually trust."</i></p>
+        <blockquote>
+          <i>&ldquo;There is no secret ingredient. It's just you.&rdquo; &mdash; Kung Fu Panda</i>
+        </blockquote>
         <ul>
-          <li>💼 <b>Current Role:</b> R&amp;D Engineer @ Mooving (SAR Group) — SARC Group</li>
-          <li>⚡ <b>Core Focus:</b> Machine Learning Pipelines, Fleet Telemetry, DBSCAN &amp; TSP Route Optimization</li>
+          <li>💼 <b>Current Role:</b> R&amp;D Engineer (Data Science &amp; ML) @ Mooving (SAR Group)</li>
+          <li>⚡ <b>Core Focus:</b> Machine Learning Pipelines, Fleet Telemetry Analytics, DBSCAN &amp; TSP Route Optimization</li>
           <li>👁️ <b>Vision &amp; Deep Learning:</b> 98.1% Cataract Detection (YOLOv8 + PyTorch) &amp; On-Device TFLite Face Recognition</li>
-          <li>🛠️ <b>Tech Stack:</b> Python, PyTorch, scikit-learn, OpenCV, YOLOv8, MongoDB, Flask/FastAPI, C++, Docker, Linux</li>
+          <li>🛠️ <b>Tech Stack:</b> Python, PyTorch, pandas, scikit-learn, YOLOv8, OpenCV, MongoDB, Plotly, Docker, Linux</li>
         </ul>
       </td>
     </tr>
@@ -49,7 +52,7 @@
 
   <br>
 
-  <!-- PROFESSIONAL EXPERIENCE TABLE -->
+  <!-- WORK EXPERIENCE TABLE -->
   <h3>💼 Work Experience</h3>
   <table width="100%">
     <thead>
@@ -61,7 +64,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><b>Mooving (SAR Group)</b><br><i>R&amp;D Engineer (SARC Group)</i></td>
+        <td><b>Mooving (SAR Group)</b><br><i>R&amp;D Engineer (Data Science &amp; ML)</i></td>
         <td>Bengaluru, India<br><code>Aug 2025 - Present</code></td>
         <td>• Built ML routing pipelines across a large fleet of field-service sites (~30% response efficiency gain using DBSCAN &amp; TSP).<br>• Automated recurring hardware-recovery audits (~25% uptime stability gain).</td>
       </tr>
@@ -73,15 +76,15 @@
       <tr>
         <td><b>Vmake</b><br><i>Embedded Systems Intern</i></td>
         <td>Bengaluru, India<br><code>Jan 2024 - Mar 2024</code></td>
-        <td>• Built 12 IoT &amp; robotics projects (gesture robots, LPG detectors, vitals monitors).<br>• Led a 6-person delivery team from hardware prototype to production handoff.</td>
+        <td>• Built 12 IoT &amp; robotics projects (gesture robots, LPG detectors, vitals monitors).<br>• Led a 6-person delivery team from hardware prototype to handoff.</td>
       </tr>
     </tbody>
   </table>
 
   <br><br>
 
-  <!-- FEATURED ML & COMPUTER VISION PROJECTS -->
-  <h3>🚀 Featured Applied ML &amp; Vision Projects</h3>
+  <!-- FEATURED APPLIED ML PROJECTS -->
+  <h3>🚀 Featured Applied ML Projects</h3>
   <table width="100%">
     <thead>
       <tr>
@@ -115,19 +118,19 @@
 
   <br><br>
 
-  <!-- LOCAL ANIMATED STATS & LANGUAGES -->
+  <!-- LOCAL ANIMATED STATS & SKILLS -->
   <h3>📊 Activity &amp; Skills Summary</h3>
   <table border="0">
     <tr>
-      <td><img src="./stats.svg?v=2" alt="Telemetry Stats" width="400px"></td>
-      <td><img src="./langs.svg?v=2" alt="Skills Distribution" width="400px"></td>
+      <td><img src="./stats.svg?v=3" alt="Data Science Stats" width="400px"></td>
+      <td><img src="./langs.svg?v=3" alt="Skills Breakdown" width="400px"></td>
     </tr>
   </table>
 
   <br>
 
   <!-- TROPHIES -->
-  <img src="./trophies.svg?v=2" alt="GitHub Trophies" width="100%">
+  <img src="./trophies.svg?v=3" alt="GitHub Trophies" width="100%">
 
   <br><br>
 
@@ -145,8 +148,8 @@
 
   <br>
 
-  <p font-size="12px" color="#94a3b8">
-    <i>Designed for <b>Sarath Babu P</b> • Research &amp; Development Engineer @ Mooving (SARC Group)</i>
+  <p font-size="12px" color="#9ca3af">
+    <i>small lights, patiently kept &bull; Designed for <b>Sarath Babu P</b> (Data Scientist &amp; Applied ML Engineer)</i>
   </p>
 
 </div>

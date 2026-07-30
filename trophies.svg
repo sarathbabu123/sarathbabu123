@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 140" width="820" height="140">
   <defs>
     <linearGradient id="trophyBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#12121c" />
-      <stop offset="100%" stop-color="#0a0a0f" />
+      <stop offset="0%" stop-color="#101810" />
+      <stop offset="100%" stop-color="#080c08" />
     </linearGradient>
   </defs>
   <style>
@@ -11,39 +11,35 @@
     .code-font { font-family: 'Fira Code', monospace; }
   </style>
 
-  <rect width="820" height="140" rx="14" fill="url(#trophyBg)" stroke="rgba(232, 81, 26, 0.3)" stroke-width="1.2" />
+  <rect width="820" height="140" rx="14" fill="url(#trophyBg)" stroke="rgba(245, 158, 11, 0.25)" stroke-width="1.2" />
 
   <g transform="translate(20, 20)">
-    <!-- Trophy 1 -->
     <g transform="translate(0, 0)">
-      <rect width="180" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(232, 81, 26, 0.4)" stroke-width="1" />
-      <text x="90" y="38" text-anchor="middle" font-size="24">⚡</text>
-      <text x="90" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#f97316">FLEET OPTIMIZER</text>
-      <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8" class="code-font">30% TSP Efficiency</text>
-    </g>
-
-    <!-- Trophy 2 -->
-    <g transform="translate(195, 0)">
-      <rect width="180" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(0, 240, 255, 0.4)" stroke-width="1" />
-      <text x="90" y="38" text-anchor="middle" font-size="24">👁️</text>
-      <text x="90" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#00f0ff">VISION PIONEER</text>
-      <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8" class="code-font">98.1% Cataract ML</text>
-    </g>
-
-    <!-- Trophy 3 -->
-    <g transform="translate(390, 0)">
-      <rect width="180" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="1" />
+      <rect width="180" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(245, 158, 11, 0.4)" stroke-width="1" />
       <text x="90" y="38" text-anchor="middle" font-size="24">📊</text>
-      <text x="90" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#c084fc">LOG WRANGLER</text>
-      <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8" class="code-font">300M+ IoT Logs</text>
+      <text x="90" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#f59e0b">ML ARCHITECT</text>
+      <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="600" fill="#9ca3af" class="code-font">30% Route Gain</text>
     </g>
 
-    <!-- Trophy 4 -->
+    <g transform="translate(195, 0)">
+      <rect width="180" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+      <text x="90" y="38" text-anchor="middle" font-size="24">👁️</text>
+      <text x="90" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#10b981">VISION PIONEER</text>
+      <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="600" fill="#9ca3af" class="code-font">98.1% Cataract ML</text>
+    </g>
+
+    <g transform="translate(390, 0)">
+      <rect width="180" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(96, 165, 250, 0.4)" stroke-width="1" />
+      <text x="90" y="38" text-anchor="middle" font-size="24">📈</text>
+      <text x="90" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#60a5fa">LOG WRANGLER</text>
+      <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="600" fill="#9ca3af" class="code-font">300M+ IoT Logs</text>
+    </g>
+
     <g transform="translate(585, 0)">
-      <rect width="180" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(74, 222, 128, 0.4)" stroke-width="1" />
+      <rect width="180" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(251, 191, 36, 0.4)" stroke-width="1" />
       <text x="90" y="38" text-anchor="middle" font-size="24">🐍</text>
-      <text x="90" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#4ade80">SNAKE CHAMPION</text>
-      <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8" class="code-font">Daily Contribution</text>
+      <text x="90" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#fbbf24">SNAKE CHAMPION</text>
+      <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="600" fill="#9ca3af" class="code-font">Daily Contribution</text>
     </g>
   </g>
 </svg>

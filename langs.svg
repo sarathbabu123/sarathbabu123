@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 210" width="400" height="210">
   <defs>
     <linearGradient id="langsBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#12121c" />
-      <stop offset="100%" stop-color="#0a0a0f" />
+      <stop offset="0%" stop-color="#101810" />
+      <stop offset="100%" stop-color="#080c08" />
     </linearGradient>
   </defs>
   <style>
@@ -19,37 +19,37 @@
     }
   </style>
 
-  <rect width="400" height="210" rx="14" fill="url(#langsBg)" stroke="rgba(0, 240, 255, 0.3)" stroke-width="1.2" />
-  <text x="24" y="36" font-size="15" font-weight="800" fill="#ffffff">📊 Engineering Skills Distribution</text>
+  <rect width="400" height="210" rx="14" fill="url(#langsBg)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1.2" />
+  <text x="24" y="36" font-size="15" font-weight="800" fill="#eee9da">📊 Data Science Skills Breakdown</text>
 
   <g transform="translate(24, 65)">
     <!-- Python -->
     <g transform="translate(0, 0)">
-      <text font-size="13" font-weight="700" fill="#f97316">Python (Data ML / Vision / APIs)</text>
-      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">50%</text>
+      <text font-size="13" font-weight="700" fill="#f59e0b">Python (ML / Telemetry / pandas)</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#9ca3af" class="code-font">55%</text>
       <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
-      <rect y="8" width="176" height="8" rx="4" fill="#e8511a" class="bar-anim" />
+      <rect y="8" width="193" height="8" rx="4" fill="#f59e0b" class="bar-anim" />
     </g>
-    <!-- C++ / Embedded -->
+    <!-- PyTorch & Vision -->
     <g transform="translate(0, 32)">
-      <text font-size="13" font-weight="700" fill="#60a5fa">C++ / Embedded Systems</text>
-      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">20%</text>
+      <text font-size="13" font-weight="700" fill="#10b981">PyTorch &amp; Computer Vision</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#9ca3af" class="code-font">25%</text>
       <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
-      <rect y="8" width="70" height="8" rx="4" fill="#3b82f6" class="bar-anim" />
+      <rect y="8" width="88" height="8" rx="4" fill="#10b981" class="bar-anim" />
     </g>
     <!-- SQL & MongoDB -->
     <g transform="translate(0, 64)">
-      <text font-size="13" font-weight="700" fill="#4ade80">SQL &amp; MongoDB (Telemetry Data)</text>
-      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">15%</text>
+      <text font-size="13" font-weight="700" fill="#60a5fa">SQL &amp; MongoDB (IoT Telemetry)</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#9ca3af" class="code-font">15%</text>
       <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
-      <rect y="8" width="53" height="8" rx="4" fill="#22c55e" class="bar-anim" />
+      <rect y="8" width="53" height="8" rx="4" fill="#3b82f6" class="bar-anim" />
     </g>
-    <!-- Web & Flutter -->
+    <!-- C++ / Embedded -->
     <g transform="translate(0, 96)">
-      <text font-size="13" font-weight="700" fill="#00f0ff">Flutter &amp; Web Frameworks</text>
-      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">15%</text>
+      <text font-size="13" font-weight="700" fill="#c084fc">C++ &amp; Embedded Systems</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#9ca3af" class="code-font">5%</text>
       <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
-      <rect y="8" width="53" height="8" rx="4" fill="#00f0ff" class="bar-anim" />
+      <rect y="8" width="18" height="8" rx="4" fill="#a855f7" class="bar-anim" />
     </g>
   </g>
 </svg>
