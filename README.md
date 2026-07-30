@@ -15,7 +15,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarath_Babu_P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarath-babu-p/)
 [![Email](https://img.shields.io/badge/Email-sarathbabuparakkadavu-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarathbabuparakkadavu@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarathbabu123)
-![Views](https://komarev.com/ghpvc/?username=sarathbabu123&color=c8a96e&style=for-the-badge&label=Profile+Views)
+![Views](https://komarev.com/ghpvc/?username=sarathbabu123&color=d4c49a&style=for-the-badge&label=Profile+Views)
 
 </div>
 
@@ -58,7 +58,22 @@ I got into this field by building things before understanding them. That habit n
 
 ---
 
-### 📊 GitHub Activity
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sarathbabu123&theme=github_dark" width="31%" alt="Stats">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sarathbabu123&theme=github_dark" width="31%" alt="Most Commit Language">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sarathbabu123&theme=github_dark" width="31%" alt="Repos per Language">
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sarathbabu123&theme=github_dark&utcOffset=5.5" width="47%" alt="Productive Time">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sarathbabu123&theme=github_dark" width="47%" alt="Profile Details">
+</p>
+
+---
+
+### 📈 Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sarathbabu123&bg_color=0b1009&color=d4c49a&line=c8a96e&point=eee9da&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%">
