@@ -539,6 +539,32 @@ with open(os.path.join(workflows_dir, 'github-snake.yml'), 'w', encoding='utf-8'
     f.write(snake_yml)
 print("✓ github-snake.yml")
 
+metrics_yml = '''name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: sarathbabu123
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          plugin_languages: yes
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+'''
+with open(os.path.join(workflows_dir, 'metrics.yml'), 'w', encoding='utf-8') as f:
+    f.write(metrics_yml)
+print("✓ metrics.yml")
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 6. README.md — completely original copy, no projects, no plagiarism
@@ -596,10 +622,28 @@ I got into this field by building things before understanding them. That habit n
 
 ---
 
-### 📊 GitHub Activity
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=sarathbabu123&theme=radical&no-frame=true&no-bg=true&margin-w=15&row=1&column=7" alt="sarathbabu123 trophies">
+  </a>
+</p>
+
+---
+
+### 📊 GitHub Activity & Metrics
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sarathbabu123&bg_color=0b1009&color=d4c49a&line=c8a96e&point=eee9da&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarathbabu123/sarathbabu123/main/github-metrics.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sarathbabu123/sarathbabu123/main/github-metrics.svg">
+    <img alt="Metrics" src="https://raw.githubusercontent.com/sarathbabu123/sarathbabu123/main/github-metrics.svg" width="100%">
+  </picture>
 </p>
 
 ---
@@ -621,7 +665,6 @@ I got into this field by building things before understanding them. That habit n
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarath_Babu_P-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarath-babu-p/)
 [![Email](https://img.shields.io/badge/Email-sarathbabuparakkadavu@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sarathbabuparakkadavu@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=flat&logo=github&logoColor=white)](https://github.com/sarathbabu123)
-![Profile views](https://komarev.com/ghpvc/?username=sarathbabu123&color=c8a96e&style=flat&label=Profile+views)
 
 <br>
 
