@@ -1,21 +1,31 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="./banner.svg?v=6">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=6">
-  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="./banner.svg?v=6" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="./banner.svg?v=7">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=7">
+  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="./banner.svg?v=7" width="100%">
 </picture>
 
 <br>
 
-<img src="./lanyard.svg?v=6" alt="Data Scientist ID Badge — Sarath Babu P" width="360">
+<img src="./lanyard.svg?v=7" alt="Data Scientist ID Badge — Sarath Babu P" width="360">
 
 <br><br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarath_Babu_P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarath-babu-p/)
-[![Email](https://img.shields.io/badge/Email-sarathbabuparakkadavu-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarathbabuparakkadavu@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarathbabu123)
-![Views](https://komarev.com/ghpvc/?username=sarathbabu123&color=d4c49a&style=for-the-badge&label=Profile+Views)
+<p>
+  <a href="https://www.linkedin.com/in/sarath-babu-p/">
+    <img src="https://img.shields.io/badge/LinkedIn-Sarath_Babu_P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>&nbsp;
+  <a href="mailto:sarathbabuparakkadavu@gmail.com">
+    <img src="https://img.shields.io/badge/Email-sarathbabuparakkadavu-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>&nbsp;
+  <a href="https://github.com/sarathbabu123">
+    <img src="https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>&nbsp;
+  <a href="https://github.com/sarathbabu123/sarathbabu123">
+    <img src="https://api.visitorbadge.io/api/visitors?path=sarathbabu123.sarathbabu123&label=PROFILE%20VIEWS&countColor=%23d4c49a&style=for-the-badge" alt="Profile Views">
+  </a>
+</p>
 
 </div>
 
