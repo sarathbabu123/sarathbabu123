@@ -365,7 +365,7 @@ lanyard = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 560" widt
     <circle cx="220" cy="140" r="6.5" fill="#131810" stroke="#b8c4b0" stroke-width="2.5"/>
 
     <!-- ── Badge card ────────────────────────────────────────────── -->
-    <g transform="translate(80,148)" filter="url(#cardDrop)">
+    <g transform="translate(80,148)">
       <rect width="280" height="376" rx="16" fill="url(#card)"
             stroke="rgba(200,169,110,.3)" stroke-width="1.4"/>
       <rect width="272" height="368" x="4" y="4" rx="12"
