@@ -579,14 +579,14 @@ print("✓ metrics.yml")
 readme = '''<div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=8">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=8">
-  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="banner.svg?v=8" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="banner.png?v=9">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.png?v=9">
+  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="banner.png?v=9" width="100%">
 </picture>
 
 <br>
 
-<img src="lanyard.svg?v=8" alt="Data Scientist ID Badge — Sarath Babu P" width="360">
+<img src="lanyard.png?v=9" alt="Data Scientist ID Badge — Sarath Babu P" width="360">
 
 <br><br>
 
@@ -693,4 +693,30 @@ I got into this field by building things before understanding them. That habit n
 with open(os.path.join(repo_dir, 'README.md'), 'w', encoding='utf-8') as f:
     f.write(readme)
 print("✓ README.md")
-print("\nAll files generated successfully.")
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 7. Render SVGs to pixel-perfect PNGs via Playwright to bypass GitHub SVG CSP
+# ─────────────────────────────────────────────────────────────────────────────
+try:
+    from playwright.sync_api import sync_playwright
+    print("Rasterizing SVGs to high-DPI PNGs via Playwright...")
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        for svg_name in ['banner.svg', 'banner-light.svg', 'lanyard.svg']:
+            p_abs = os.path.abspath(os.path.join(repo_dir, svg_name)).replace('\\', '/')
+            page = browser.new_page(viewport={'width': 1200, 'height': 630})
+            page.goto('file:///' + p_abs)
+            page.wait_for_timeout(400)
+            png_name = svg_name.replace('.svg', '.png')
+            out_path = os.path.join(repo_dir, png_name)
+            if 'lanyard' in svg_name:
+                page.locator('svg').screenshot(path=out_path, omit_background=True)
+            else:
+                page.screenshot(path=out_path, clip={'x': 0, 'y': 0, 'width': 1200, 'height': 630})
+            print(f"✓ {png_name}")
+        browser.close()
+except Exception as e:
+    print(f"PNG rasterization skipped: {e}")
+
+print("
+All files generated and rasterized successfully.")
