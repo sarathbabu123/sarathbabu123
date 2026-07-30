@@ -433,7 +433,7 @@ lanyard = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 560" widt
         <rect x="7.5" y="0" width="3.5" height="24" fill="#eee9da" opacity=".18"/>
         <rect x="13"  y="0" width="1.5" height="24" fill="#eee9da" opacity=".18"/>
         <rect x="17"  y="0" width="4"   height="24" fill="#eee9da" opacity=".18"/>
-        <rect x="23.5"y="0" width="1"   height="24" fill="#eee9da" opacity=".18"/>
+        <rect x="23.5" y="0" width="1"   height="24" fill="#eee9da" opacity=".18"/>
         <rect x="27"  y="0" width="2.5" height="24" fill="#eee9da" opacity=".18"/>
         <rect x="32"  y="0" width="5"   height="24" fill="#eee9da" opacity=".18"/>
         <rect x="40"  y="0" width="1.5" height="24" fill="#eee9da" opacity=".18"/>
@@ -444,7 +444,7 @@ lanyard = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 560" widt
         <rect x="66"  y="0" width="3.5" height="24" fill="#eee9da" opacity=".18"/>
         <rect x="73"  y="0" width="1"   height="24" fill="#eee9da" opacity=".18"/>
         <rect x="77"  y="0" width="2.5" height="24" fill="#eee9da" opacity=".18"/>
-        <rect x="82.5"y="0" width="5"   height="24" fill="#eee9da" opacity=".18"/>
+        <rect x="82.5" y="0" width="5"   height="24" fill="#eee9da" opacity=".18"/>
         <rect x="91"  y="0" width="1.5" height="24" fill="#eee9da" opacity=".18"/>
         <rect x="95"  y="0" width="3"   height="24" fill="#eee9da" opacity=".18"/>
         <rect x="101" y="0" width="1"   height="24" fill="#eee9da" opacity=".18"/>
