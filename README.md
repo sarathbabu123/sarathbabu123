@@ -1,14 +1,14 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="./banner.svg?v=7">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=7">
-  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="./banner.svg?v=7" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=8">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=8">
+  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="banner.svg?v=8" width="100%">
 </picture>
 
 <br>
 
-<img src="./lanyard.svg?v=7" alt="Data Scientist ID Badge — Sarath Babu P" width="360">
+<img src="lanyard.svg?v=8" alt="Data Scientist ID Badge — Sarath Babu P" width="360">
 
 <br><br>
 
@@ -23,7 +23,7 @@
     <img src="https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>&nbsp;
   <a href="https://github.com/sarathbabu123/sarathbabu123">
-    <img src="https://api.visitorbadge.io/api/visitors?path=sarathbabu123.sarathbabu123&label=PROFILE%20VIEWS&countColor=%23d4c49a&style=for-the-badge" alt="Profile Views">
+    <img src="https://hits.dwyl.com/sarathbabu123/sarathbabu123.svg?style=for-the-badge&color=d4c49a" alt="Profile Views">
   </a>
 </p>
 
