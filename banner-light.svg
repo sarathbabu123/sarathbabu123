@@ -146,12 +146,12 @@
           font-family="'EB Garamond', Georgia, serif"
           font-size="20" font-style="italic" font-weight="500"
           fill="#2c2410" opacity=".65"
-          letter-spacing=".3">"Transforming complex data</text>
+          letter-spacing=".3">"Finding the ground truth</text>
     <text x="62" y="442"
           font-family="'EB Garamond', Georgia, serif"
           font-size="20" font-style="italic" font-weight="500"
           fill="#2c2410" opacity=".65"
-          letter-spacing=".3"> into actionable intelligence."</text>
+          letter-spacing=".3"> in a noisy world."</text>
 
     <!-- Stack row — small pill-like chips using pure SVG text + rect -->
     <!-- Python -->

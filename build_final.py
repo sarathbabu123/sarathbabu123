@@ -199,12 +199,12 @@ banner_dark = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
           font-family="'EB Garamond', Georgia, serif"
           font-size="20" font-style="italic" font-weight="500"
           fill="#eee9da" opacity=".65"
-          letter-spacing=".3">"Transforming complex data</text>
+          letter-spacing=".3">"Finding the ground truth</text>
     <text x="62" y="442"
           font-family="'EB Garamond', Georgia, serif"
           font-size="20" font-style="italic" font-weight="500"
           fill="#eee9da" opacity=".65"
-          letter-spacing=".3"> into actionable intelligence."</text>
+          letter-spacing=".3"> in a noisy world."</text>
 
     <!-- Stack row — small pill-like chips using pure SVG text + rect -->
     <!-- Python -->
@@ -548,14 +548,14 @@ print("✓ github-snake.yml")
 readme = '''<div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="./banner.svg?v=4">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=4">
-  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="./banner.svg?v=4" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="./banner.svg?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=5">
+  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="./banner.svg?v=5" width="100%">
 </picture>
 
 <br>
 
-<img src="./lanyard.svg?v=4" alt="Data Scientist ID Badge — Sarath Babu P" width="380">
+<img src="./lanyard.svg?v=5" alt="Data Scientist ID Badge — Sarath Babu P" width="380">
 
 <br><br>
 
