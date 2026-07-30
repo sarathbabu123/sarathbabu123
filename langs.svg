@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 210" width="400" height="210">
   <defs>
     <linearGradient id="langsBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#120a21" />
-      <stop offset="100%" stop-color="#0a0514" />
+      <stop offset="0%" stop-color="#12121c" />
+      <stop offset="100%" stop-color="#0a0a0f" />
     </linearGradient>
   </defs>
   <style>
@@ -19,33 +19,37 @@
     }
   </style>
 
-  <rect width="400" height="210" rx="16" fill="url(#langsBg)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1.5" />
-  <text x="24" y="36" font-size="16" font-weight="800" fill="#ffffff">📊 Top Languages</text>
+  <rect width="400" height="210" rx="14" fill="url(#langsBg)" stroke="rgba(0, 240, 255, 0.3)" stroke-width="1.2" />
+  <text x="24" y="36" font-size="15" font-weight="800" fill="#ffffff">📊 Engineering Skills Distribution</text>
 
   <g transform="translate(24, 65)">
+    <!-- Python -->
     <g transform="translate(0, 0)">
-      <text font-size="13" font-weight="700" fill="#60a5fa">TypeScript / JavaScript</text>
-      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">45%</text>
+      <text font-size="13" font-weight="700" fill="#f97316">Python (Data ML / Vision / APIs)</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">50%</text>
       <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
-      <rect y="8" width="158" height="8" rx="4" fill="#3178c6" class="bar-anim" />
+      <rect y="8" width="176" height="8" rx="4" fill="#e8511a" class="bar-anim" />
     </g>
+    <!-- C++ / Embedded -->
     <g transform="translate(0, 32)">
-      <text font-size="13" font-weight="700" fill="#38bdf8">Python</text>
-      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">30%</text>
+      <text font-size="13" font-weight="700" fill="#60a5fa">C++ / Embedded Systems</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">20%</text>
       <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
-      <rect y="8" width="105" height="8" rx="4" fill="#3776ab" class="bar-anim" />
+      <rect y="8" width="70" height="8" rx="4" fill="#3b82f6" class="bar-anim" />
     </g>
+    <!-- SQL & MongoDB -->
     <g transform="translate(0, 64)">
-      <text font-size="13" font-weight="700" fill="#f472b6">HTML &amp; CSS</text>
+      <text font-size="13" font-weight="700" fill="#4ade80">SQL &amp; MongoDB (Telemetry Data)</text>
       <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">15%</text>
       <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
-      <rect y="8" width="53" height="8" rx="4" fill="#ec4899" class="bar-anim" />
+      <rect y="8" width="53" height="8" rx="4" fill="#22c55e" class="bar-anim" />
     </g>
+    <!-- Web & Flutter -->
     <g transform="translate(0, 96)">
-      <text font-size="13" font-weight="700" fill="#4ade80">Shell &amp; Docker</text>
-      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">10%</text>
+      <text font-size="13" font-weight="700" fill="#00f0ff">Flutter &amp; Web Frameworks</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">15%</text>
       <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
-      <rect y="8" width="35" height="8" rx="4" fill="#22c55e" class="bar-anim" />
+      <rect y="8" width="53" height="8" rx="4" fill="#00f0ff" class="bar-anim" />
     </g>
   </g>
 </svg>
