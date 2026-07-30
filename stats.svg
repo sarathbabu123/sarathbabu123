@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 210" width="400" height="210">
+  <defs>
+    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120a21" />
+      <stop offset="100%" stop-color="#0a0514" />
+    </linearGradient>
+    <linearGradient id="rankGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#00f0ff" />
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&amp;family=Outfit:wght@600;800&amp;display=swap');
+    text { font-family: 'Outfit', sans-serif; }
+    .code-font { font-family: 'Fira Code', monospace; }
+    .circle-rank {
+      stroke-dasharray: 283;
+      stroke-dashoffset: 45;
+      animation: rankFill 2s ease-out forwards;
+    }
+    @keyframes rankFill {
+      from { stroke-dashoffset: 283; }
+      to { stroke-dashoffset: 45; }
+    }
+  </style>
+
+  <rect width="400" height="210" rx="16" fill="url(#statsBg)" stroke="rgba(255, 94, 174, 0.3)" stroke-width="1.5" />
+  
+  <text x="24" y="36" font-size="16" font-weight="800" fill="#ffffff">⚡ GitHub Stats Overview</text>
+  
+  <g transform="translate(70, 120)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="8" />
+    <circle cx="0" cy="0" r="45" fill="none" stroke="url(#rankGrad)" stroke-width="8" stroke-linecap="round" class="circle-rank" transform="rotate(-90)" />
+    <text x="0" y="8" text-anchor="middle" font-size="28" font-weight="900" fill="#ffffff" class="code-font">A+</text>
+    <text x="0" y="24" text-anchor="middle" font-size="9" font-weight="700" fill="#00f0ff" letter-spacing="1">RANK</text>
+  </g>
+
+  <g transform="translate(150, 70)" font-size="14" font-weight="600" fill="#cbd5e1">
+    <g transform="translate(0, 0)">
+      <text fill="#a78bfa">✦ Total Commits:</text>
+      <text x="190" text-anchor="end" fill="#ffffff" class="code-font" font-weight="700">1,240+</text>
+    </g>
+    <g transform="translate(0, 30)">
+      <text fill="#a78bfa">✦ Pull Requests:</text>
+      <text x="190" text-anchor="end" fill="#ffffff" class="code-font" font-weight="700">85+</text>
+    </g>
+    <g transform="translate(0, 60)">
+      <text fill="#a78bfa">✦ Total Stars:</text>
+      <text x="190" text-anchor="end" fill="#ffffff" class="code-font" font-weight="700">180+</text>
+    </g>
+    <g transform="translate(0, 90)">
+      <text fill="#a78bfa">✦ Repos Contributed:</text>
+      <text x="190" text-anchor="end" fill="#ffffff" class="code-font" font-weight="700">25+</text>
+    </g>
+  </g>
+</svg>

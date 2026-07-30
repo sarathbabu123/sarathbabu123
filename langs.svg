@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 210" width="400" height="210">
+  <defs>
+    <linearGradient id="langsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120a21" />
+      <stop offset="100%" stop-color="#0a0514" />
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&amp;family=Outfit:wght@600;800&amp;display=swap');
+    text { font-family: 'Outfit', sans-serif; }
+    .code-font { font-family: 'Fira Code', monospace; }
+    .bar-anim {
+      animation: growBar 1.8s cubic-bezier(0.1, 0.9, 0.2, 1) forwards;
+      transform-origin: left;
+    }
+    @keyframes growBar {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+  </style>
+
+  <rect width="400" height="210" rx="16" fill="url(#langsBg)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1.5" />
+  <text x="24" y="36" font-size="16" font-weight="800" fill="#ffffff">📊 Top Languages</text>
+
+  <g transform="translate(24, 65)">
+    <g transform="translate(0, 0)">
+      <text font-size="13" font-weight="700" fill="#60a5fa">TypeScript / JavaScript</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">45%</text>
+      <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
+      <rect y="8" width="158" height="8" rx="4" fill="#3178c6" class="bar-anim" />
+    </g>
+    <g transform="translate(0, 32)">
+      <text font-size="13" font-weight="700" fill="#38bdf8">Python</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">30%</text>
+      <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
+      <rect y="8" width="105" height="8" rx="4" fill="#3776ab" class="bar-anim" />
+    </g>
+    <g transform="translate(0, 64)">
+      <text font-size="13" font-weight="700" fill="#f472b6">HTML &amp; CSS</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">15%</text>
+      <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
+      <rect y="8" width="53" height="8" rx="4" fill="#ec4899" class="bar-anim" />
+    </g>
+    <g transform="translate(0, 96)">
+      <text font-size="13" font-weight="700" fill="#4ade80">Shell &amp; Docker</text>
+      <text x="352" font-size="13" text-anchor="end" fill="#94a3b8" class="code-font">10%</text>
+      <rect y="8" width="352" height="8" rx="4" fill="rgba(255,255,255,0.06)" />
+      <rect y="8" width="35" height="8" rx="4" fill="#22c55e" class="bar-anim" />
+    </g>
+  </g>
+</svg>
