@@ -1,14 +1,14 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=8">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=8">
-  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="banner.svg?v=8" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="banner.png?v=9">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.png?v=9">
+  <img alt="Sarath Babu P — Data Scientist, Bengaluru" src="banner.png?v=9" width="100%">
 </picture>
 
 <br>
 
-<img src="lanyard.svg?v=8" alt="Data Scientist ID Badge — Sarath Babu P" width="360">
+<img src="lanyard.png?v=9" alt="Data Scientist ID Badge — Sarath Babu P" width="360">
 
 <br><br>
 

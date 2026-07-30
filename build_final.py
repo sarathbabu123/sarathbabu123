@@ -718,5 +718,4 @@ try:
 except Exception as e:
     print(f"PNG rasterization skipped: {e}")
 
-print("
-All files generated and rasterized successfully.")
+print("\nAll files generated and rasterized successfully.")
