@@ -52,9 +52,9 @@ I got into this field by building things before understanding them. That habit n
 ### 📊 GitHub Activity
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=sarathbabu123&show_icons=true&hide_border=true&theme=transparent&title_color=d4c49a&icon_color=c8a96e&text_color=eee9da&bg_color=0b1009" alt="GitHub Stats">
+  <img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=sarathbabu123&show_icons=true&hide_border=true&theme=transparent&title_color=d4c49a&icon_color=c8a96e&text_color=eee9da&bg_color=0b1009" alt="GitHub Stats">
   &nbsp;
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarathbabu123&layout=compact&hide_border=true&theme=transparent&title_color=d4c49a&text_color=eee9da&bg_color=0b1009" alt="Top Languages">
+  <img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sarathbabu123&layout=compact&hide_border=true&theme=transparent&title_color=d4c49a&text_color=eee9da&bg_color=0b1009" alt="Top Languages">
 </p>
 
 ---
