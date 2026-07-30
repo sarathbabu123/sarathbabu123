@@ -49,16 +49,6 @@ I got into this field by building things before understanding them. That habit n
 
 ---
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=sarathbabu123&theme=radical&no-frame=true&no-bg=true&margin-w=15&row=1&column=7" alt="sarathbabu123 trophies">
-  </a>
-</p>
-
----
-
 ### 📊 GitHub Activity & Metrics
 
 <p align="center">
@@ -92,6 +82,7 @@ I got into this field by building things before understanding them. That habit n
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarath_Babu_P-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarath-babu-p/)
 [![Email](https://img.shields.io/badge/Email-sarathbabuparakkadavu@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sarathbabuparakkadavu@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=flat&logo=github&logoColor=white)](https://github.com/sarathbabu123)
+![Profile views](https://komarev.com/ghpvc/?username=sarathbabu123&color=c8a96e&style=flat&label=Profile+views)
 
 <br>
 
