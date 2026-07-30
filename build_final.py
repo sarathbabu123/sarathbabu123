@@ -137,7 +137,7 @@ banner_dark = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
     <g clip-path="url(#portraitClip)">
       <!-- Portrait image — natural placement, full height -->
       <image
-        href="char.png"
+        href="data:image/png;base64,{b64_char}"
         x="648" y="40" width="510" height="590"
         preserveAspectRatio="xMidYMax meet"
         opacity=".92"/>
@@ -382,7 +382,7 @@ lanyard = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 560" widt
       <!-- Avatar ring -->
       <circle cx="140" cy="132" r="56" fill="none" stroke="url(#avatarRing)" stroke-width="2"/>
       <circle cx="140" cy="132" r="51" fill="#1a2018"/>
-      <image href="avatar.png"
+      <image href="data:image/png;base64,{b64_avatar}"
              x="89" y="81" width="102" height="102"
              clip-path="circle(51px at 51px 51px)"/>
 
