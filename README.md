@@ -12,18 +12,10 @@
 
 <br><br>
 
-<p>
-  <a href="https://www.linkedin.com/in/sarath-babu-p/">
-    <img src="https://img.shields.io/badge/LinkedIn-Sarath_Babu_P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>&nbsp;
-  <a href="mailto:sarathbabuparakkadavu@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sarathbabuparakkadavu-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>&nbsp;
-  <a href="https://github.com/sarathbabu123">
-    <img src="https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=sarathbabu123&color=c8a96e&style=for-the-badge&label=Profile+Views" alt="Profile views">
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarath_Babu_P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarath-babu-p/)
+[![Email](https://img.shields.io/badge/Email-sarathbabuparakkadavu-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarathbabuparakkadavu@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-sarathbabu123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarathbabu123)
+![Views](https://komarev.com/ghpvc/?username=sarathbabu123&color=c8a96e&style=for-the-badge&label=Profile+Views)
 
 </div>
 
@@ -70,14 +62,6 @@ I got into this field by building things before understanding them. That habit n
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sarathbabu123&bg_color=0b1009&color=d4c49a&line=c8a96e&point=eee9da&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%">
-</p>
-
----
-
-### 📈 Metrics & Language Breakdown
-
-<p align="center">
-  <img alt="Metrics" src="https://raw.githubusercontent.com/sarathbabu123/sarathbabu123/main/github-metrics.svg" width="100%">
 </p>
 
 ---
