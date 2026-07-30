@@ -194,17 +194,17 @@ banner_dark = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
     <!-- Thin rule -->
     <line x1="62" y1="392" x2="440" y2="392" stroke="#eee9da" stroke-width=".6" opacity=".08"/>
 
-    <!-- Philosophy quote — original -->
+    <!-- Philosophy quote — professional -->
     <text x="62" y="418"
           font-family="'EB Garamond', Georgia, serif"
           font-size="20" font-style="italic" font-weight="500"
           fill="#eee9da" opacity=".65"
-          letter-spacing=".3">"There is no secret ingredient.</text>
+          letter-spacing=".3">"Transforming complex data</text>
     <text x="62" y="442"
           font-family="'EB Garamond', Georgia, serif"
           font-size="20" font-style="italic" font-weight="500"
           fill="#eee9da" opacity=".65"
-          letter-spacing=".3"> It's just you."</text>
+          letter-spacing=".3"> into actionable intelligence."</text>
 
     <!-- Stack row — small pill-like chips using pure SVG text + rect -->
     <!-- Python -->
@@ -598,10 +598,8 @@ I got into this field by building things before understanding them. That habit n
 
 ### 📊 GitHub Activity
 
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=sarathbabu123&show_icons=true&hide_border=true&theme=transparent&title_color=d4c49a&icon_color=c8a96e&text_color=eee9da&bg_color=0b1009" alt="GitHub Stats">
-  &nbsp;
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarathbabu123&layout=compact&hide_border=true&theme=transparent&title_color=d4c49a&text_color=eee9da&bg_color=0b1009" alt="Top Languages">
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sarathbabu123&bg_color=0b1009&color=d4c49a&line=c8a96e&point=eee9da&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%">
 </p>
 
 ---
