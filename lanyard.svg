@@ -182,14 +182,7 @@
               fill="#a3b899" opacity=".45" letter-spacing="1.2">DS-SB-MOOVING-2026</text>
       </g>
 
-      <!-- Bottom shine pass — holographic shimmer -->
-      <rect x="0" y="0" width="180" height="600"
-            fill="linear-gradient(135deg,transparent 40%,rgba(255,255,255,.18) 50%,transparent 60%)"
-            rx="16" opacity=".6"
-            style="animation: shinePass 4.5s ease-in-out infinite">
-        <animateTransform attributeName="transform" type="translate"
-          values="-300,-300; 500,500" dur="4.5s" repeatCount="indefinite"/>
-      </rect>
+
     </g>
   </g>
 </svg>
